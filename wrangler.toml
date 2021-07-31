@@ -1,0 +1,11 @@
+name = "cf-worker-dyndns"
+type = "webpack"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+kv_namespaces = [
+    { binding = "DYNKV", id = "YOUR-CLOUDFLARE-KV-ID" }
+]

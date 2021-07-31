@@ -2,6 +2,7 @@
 
 **A small project to leverage the Cloudflare Workers and Cloudflare KV systems to provide a dynamic DNS service without the need to rely on third-party services.**
 
+Tested for use with AVM Fritz!Box. Should be compatible with most dynamic DNS setups.
 ## Getting started
 
 1. Make sure to create the following secrets before publishing the worker to your account:
@@ -28,3 +29,8 @@
 ## Improving the Worker
 
 If you think that this worker should be improving please feel free to create an Issue or pull request with your proposed changes.
+
+## Examples
+
+### Configuration of a AVM Fritz!Box
+![Fritz!Box Screenshot](https://github.com/kev-ac/cloudflare-worker-dynamic-dns/raw/main/avm-fritzbox-example.png "Fritz!Box Screenshot")
